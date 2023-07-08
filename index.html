@@ -42,109 +42,103 @@
     </header>
     <main>
       <div class="container">
-        <section class="section" id="profile">
-          <h1 class=".section-title">MARINA MAKSIMOVA</h1>
-          <p>JUNIOR FRONT-END DEVELOPER</p>
-        </section>
-      </div>
-      <div class="main-container">
-        <section class="section" id="contacts">
-          <h2 class=".section-title">Contacts</h2>
-          <ul>
-            <li>
-              <img class="logo" src="./assets/img/map.png" alt="map" /> Brest,
-              Belarus
-            </li>
-            <li>
-              <img class="logo" src="./assets/img/email.png" alt="email" />
-              Email: condra430623@gmail.com
-            </li>
-            <li>
-              <img class="logo" src="./assets/img/github.png" alt="github" />
-              Github:
-              <a href="https://github.com/MarinaMaksimova" class="link"
-                >MarinaMaksimova
+        <div class="profile-container">
+          <section class="section" id="profile">
+            <img class="foto" src="./assets/img/foto.png" alt="foto" />
+          </section>
+          <section class="section" id="profile">
+            <h1 class=".section-title">MARINA MAKSIMOVA</h1>
+            <p>JUNIOR FRONT-END DEVELOPER</p>
+          </section>
+        </div>
+        <div class="main-container">
+          <section class="section" id="contacts">
+            <h2 class=".section-title">Contacts</h2>
+            <ul class="contact_list">
+             <li>
+               <img class="logo" src="./assets/img/map.png" alt="map" /> Brest,
+                Belarus
+              </li>
+              <li>
+                <img class="logo" src="./assets/img/email.png" alt="email" />
+                Email: condra430623@gmail.com
+              </li>
+              <li>
+                <img class="logo" src="./assets/img/github.png" alt="github" />
+                Github:
+                <a href="https://github.com/MarinaMaksimova" class="link"
+                  >MarinaMaksimova
+                </a>
+              </li>
+              <li>
+                <img class="logo" src="./assets/img/discord.png" alt="discord" />
+                Discord:
+                <a
+                  href="https://discord.com/channels/516715744646660106/922910840066285618"
+                  class="link"
+                  >Marina#4764
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="summary">
+            <h2 class=".section-title">Summary</h2>
+            <p>I want to learn JavaScript programming language, because this language seems interesting to me and it will help me with website development. I already have some experience in developing sites which are based on Wordpress and Joomla.</p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class=".section-title">Skills</h2>
+            <ul>
+              <li>Web-development: HTML, CSS, JavaScript, WordPress</li>
+              <li>Version control: GIT, Github</li>
+              <li>Graphics: Photoshop, Corel</li>
+              <li>Programming languages: SQL (base), С#(base), 1C</li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2 class=".section-title">Code</h2>
+            <p>JS:</p>
+            <pre><code>function longest(s1, s2) {<br>   var a1= s1.split('');<br>   var a2=2.split('');<br>   const a3 = a1.concat(a2);<br>   var a = Array.from(new Set(a3));<br>   a.sort();<br>   return a.join('');<br>}</code></pre>
+          </section>
+          <section class="section" id="courses">
+            <h2 class=".section-title">Courses</h2>
+            <ul>
+              <li>The Rolling Scopes - JavaScript/Front-end</li>
+              <li>Jukola-info - 1C prorramming</li>
+            </ul>
+          </section>
+          <section class="section" id="projects">
+            <h2 class=".section-title">Projects</h2>
+            <ul>
+              <li> 
+                <a href="https://lib.brsu.by/" class="link"
+                >BrSU Library
               </a>
             </li>
-            <li>
-              <img class="logo" src="./assets/img/discord.png" alt="discord" />
-              Discord:
-              <a
-                href="https://discord.com/channels/516715744646660106/922910840066285618"
-                class="link"
-                >Marina#4764
-              </a>
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="summary">
-          <h2 class=".section-title">Summary</h2>
-          <p>I want to learn JavaScript development, because I'm interested in this language. I have experience in creating sites on Wordpress and Joomla. </p>
-        </section>
-        <section class="section" id="skills">
-          <h2 class=".section-title">Skills</h2>
-          <ul>
-            <li>Web-development: HTML, CSS, JavaScript, WordPress</li>
-            <li>Version control: GIT, Github</li>
-            <li>Graphics: Photoshop, Corel</li>
-            <li>Programming languages: SQL (base), С#(base), 1C</li>
-          </ul>
-        </section>
-        <section class="section" id="code">
-          <h2 class=".section-title">Code</h2>
-          <p>JS:</p>
-          <pre>
-            <code>
-              function longest(s1, s2) {
-                var a1= s1.split('');
-                var a2=2.split('');
-                const a3 = a1.concat(a2);
-                var a = Array.from(new Set(a3));
-                a.sort();
-                return a.join('');
-              }
-            </code>
-          </pre>
-        </section>
-        <section class="section" id="courses">
-          <h2 class=".section-title">Courses</h2>
-          <ul>
-            <li>The Rolling Scopes - JavaScript/Front-end</li>
-            <li>Jukola-info - 1C prorramming</li>
-          </ul>
-        </section>
-        <section class="section" id="projects">
-          <h2 class=".section-title">Projects</h2>
-          <ul>
-            <li> 
-              <a href="https://lib.brsu.by/" class="link"
-              >BrSU Library
-            </a>
-          </li>
-          </ul>
-        </section>
-        <section class="section" id="education">
-          <h2 class=".section-title">Education</h2>
-          <ul>
-            <li>
-              Brest State University, Faculty of Physics and Mathematics
-              2012-2017
-            </li>
-          </ul>
-        </section>
-        <section class="section" id="languages">
-          <h2 class=".section-title">Languages</h2>
-          <ul>
-            <li>
-              English - A2
-            </li>
-        </section>
-      </div>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2 class=".section-title">Education</h2>
+            <ul>
+              <li>
+                Brest State University, Faculty of Physics and Mathematics
+                2012-2017
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+           <h2 class=".section-title">Languages</h2>
+            <ul>
+              <li>
+                English - A2
+              </li>
+          </section>
+        </div>
+    </div>
     </main>
     <footer>
       <div class="footer-container">
         <p>© 2023</p>
-        <a href="https://github.com/MarinaMaksimova" class="link"
+        <a href="https://github.com/MarinaMaksimova" class="footer-link"
           >MarinaMaksimova</a
         >
         <a href="https://rs.school/js/"
