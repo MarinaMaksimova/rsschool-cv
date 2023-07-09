@@ -30,18 +30,18 @@ footer {
   background: #ecb96c;
 }
 h1 {
-  color: #ff7300; /* Цвет заголовка */
-  font-size: 30pt; /* Размер шрифта в пунктах */
-  font-family: 'Roboto', sans-serif; /* Семейство шрифтов */
-  font-weight: normal; /* Нормальное начертание текста  */
+  color: #ff7300;
+  font-size: 30pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   text-align: center;
 }
 p {
   text-align: justify; /* Выравнивание по ширине */
-  margin-left: 10px; /* Отступ слева в пикселах */
-  margin-right: 10px; /* Отступ справа в пикселах */
-  padding-left: 10px; /* Отступ от линии слева до текста  */
-  padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;/
 }
 .pre {
   padding: 0;
@@ -85,14 +85,6 @@ pre code {
 .section {
   width: 50%;
 }
-.section-item a {
-  color: #ecb96c;
-  text-decoration: none;  
-  transition: color 0.5s;
-}
-.section-item a:hover {
-  color: #af5454;
-}
 .section-title {
   font-size: 20px;
   font-weight: 400px;
@@ -133,7 +125,7 @@ pre code {
 .foto {
   border-radius: 50px; /* Радиус скругления */
   border: 2px solid #ecb96c; /* Параметры рамки */
-  box-shadow: 0 0 10px #bebdbd; /* Параметры тени */
+  box-shadow: 0 0 10px #bebdbd;
   width: 150px;
   height: 90%;
   display: block;
